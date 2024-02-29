@@ -1,35 +1,86 @@
+/* Shared style */
 * {
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
+.btn-primary-rounded {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 0.75rem 1.5rem;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
 /* Header */
-header{
+header {
     margin: 6rem 7.5rem;
 }
 
 /* Navbar */
-.nav{
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav h4 {
     color: #3A3A3A;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.nav ul li a{
+.nav ul li a {
     color: #3A3A3A;
-font-size: 1rem;
-font-weight: 600;
-text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
 }
 
-.nav ul{
+.nav ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+
+/* Banner */
+.banner-container {
+    margin-top: 4rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content h1 {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    margin-bottom: 1rem;
+    /* 134.615% */
+}
+
+.banner-content p {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.banner-images{
+    /* position: static; */
+}
+
+.banner-camera{
+    position: absolute;
+    /* left: 1px; */
+    top: 240px;
 }
