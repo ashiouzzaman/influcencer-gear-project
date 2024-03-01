@@ -14,6 +14,14 @@
     font-weight: 700;
 
 }
+.btn-primary-square{
+    background: #E02C6D;
+    padding: 0.75rem 1.5rem;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
 
 /* Header */
 header {
@@ -124,7 +132,7 @@ header {
     margin: 0 auto;
 }
 
-.popular{
+.popular {
     margin-bottom: 6.25rem;
 }
 
@@ -216,4 +224,36 @@ header {
     font-size: 1rem;
     font-weight: 700;
     margin-right: 0.5rem;
+}
+
+/* Featured products */
+.featured-product-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.featured-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-bottom: 6.25rem;
+}
+
+.featured-product h3 {
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    /* 157.895% */
+}
+
+.featured-product p {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    width: 501px;
+    /* 175% */
+    margin: 1rem 0;
 }
