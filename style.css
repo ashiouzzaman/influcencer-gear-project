@@ -14,7 +14,8 @@
     font-weight: 700;
 
 }
-.btn-primary-square{
+
+.btn-primary-square {
     background: #E02C6D;
     padding: 0.75rem 1.5rem;
     border: 0;
@@ -256,4 +257,36 @@ header {
     width: 501px;
     /* 175% */
     margin: 1rem 0;
+}
+
+
+/* Footer */
+
+.footer{
+    padding: 3rem 0;
+    background: #0A0826;
+    text-align: center;
+}
+
+.footer-container h4 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-container p {
+    color: #D9DBE1;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 171.429% */
+}
+
+.footer-container ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 0;
+    justify-content: center;
+    margin-top: 1rem;
 }
