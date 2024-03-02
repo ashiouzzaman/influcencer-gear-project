@@ -34,7 +34,7 @@ header {
 /* Navbar */
 .nav-menu {
     /* display: none; */
-    visibility: hidden;
+    display: none;
 }
 
 .nav {
@@ -260,7 +260,7 @@ header {
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.75rem;
-    width: 501px;
+    max-width: 501px;
     /* 175% */
     margin: 1rem 0;
 }
@@ -310,7 +310,7 @@ header {
 
     /* Nav bar */
     .nav-menu {
-        visibility: visible;
+        display: unset;
     }
 
     .nav ul li:nth-child(-n + 5) {
@@ -438,6 +438,7 @@ header {
     }
     .featured-product p{
         margin-bottom: 2rem;
+        max-width: 32rem;
     }
     .featured-product button{
         margin-bottom: 2rem;
